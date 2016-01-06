@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>折800-自动化部署系统</title>
+    {% for stylesheet in stylesheets %}
+        <link href="{{stylesheet}}" rel='stylesheet' type="text/css" media="screen" />
+    {% endfor %}
+</head>
+<body>
+    <div id="app-loader"></div>
+    <div id="app">{{html|safe}}</div>
+    {% for script in scripts %}
+        <script type="text/javascript" src={{script}}></script>
+    {% endfor %}
+</body>
+</html>

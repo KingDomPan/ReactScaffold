@@ -1,0 +1,11 @@
+/.idea
+
+/ReactScaffold4Client/node_modules
+/ReactScaffold4Client/vendor
+/ReactScaffold4Client/build
+/ReactScaffold4Client/.idea
+
+/ReactScaffold4Server/node_modules
+/ReactScaffold4Server/vendor
+/ReactScaffold4Server/.idea
+/ReactScaffold4Server/public
