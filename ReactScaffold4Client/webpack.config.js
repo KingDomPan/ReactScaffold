@@ -10,7 +10,7 @@ var port = process.env.HOT_LOAD_PORT || 8888;
 var config = {
   cache: true,
   resolve: {
-    extensions: ['', '.js', 'jsx'],
+    extensions: ['', '.js', '.jsx'],
     modulesDirectories: ['node_modules']
   },
   entry: [
